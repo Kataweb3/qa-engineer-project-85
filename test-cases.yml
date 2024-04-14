@@ -25,6 +25,8 @@
   prerequisites: | 
     Открыта главная страница сайта https://codebattle.hexlet.io/
     У пользователя есть зарегистрированный и авторизованный аккаунт в Github
+  test-data: |
+    Тестовые данные
   steps: 
     - Нажать "Sign up"
     - Нажать "Sing in with Github"
@@ -38,6 +40,8 @@
   prerequisites: | 
     Открыта главная страница сайта https://codebattle.hexlet.io/
     У пользователя есть зарегистрированный и авторизованный аккаунт в Discord
+  test-data: |
+    Тестовые данные
   steps: 
     - Нажать "Sign up"
     - Нажать "Sing in with Discord"
@@ -112,11 +116,11 @@
 - summary: |
     Проверка авторизации пользователя с несуществующими логином и паролем
   requirement: |
-    При неправильном логине или пароля пользователь должен получить сообщение об ошибке
+    При неправильном логине или пароле пользователь должен получить сообщение об ошибке
   prerequisites:
     Пользователем неаторизован в системе. Открыта главная страница сайта https://codebattle.hexlet.io/
   test-data: |
-    Логин = hexlet Пароль = badpass
+    Логин = hexlet Пароль = hexlet
   steps:
     - Нажать "Sign in"
     - Ввести логин
@@ -132,6 +136,8 @@
   prerequisites: |
     Открыта главная страница сайта https://codebattle.hexlet.io/
     Пользователь должен иметь аккаунт на Github
+  test-data: |
+    Тестовые данные
   steps:
     - Нажать "Sign up"
     - Нажать "Sign in with Github"
@@ -145,6 +151,8 @@
   prerequisites: 
     Открыта главная страница сайта https://codebattle.hexlet.io/
     Пользователь должен иметь аккаунт Discord
+  test-data: |
+    Тестовые данные
   steps:
     - Нажать "Sign up"
     - Нажать "Sign in with Discord"
@@ -271,6 +279,8 @@
     Открыта страница https://codebattle.hexlet.io/#lobby
     Пользователь авторизован
     Есть активный турнир
+  test-data: |
+    Тестовые данные
   steps:
     - Нажать на свой ник в правом верхнем углу
     - Нажать "Tournaments"
@@ -336,6 +346,8 @@
   prerequisites: |
     Открыта главная страница сайта https://codebattle.hexlet.io/
     Пользователь авторизован
+  test-data: |
+    Тестовые данные
   steps:
     - Нажать на свой ник в правом верхнем углу
     - Нажать "Sign out"
