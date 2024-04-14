@@ -296,6 +296,8 @@
   prerequisites: | 
     Открыта страница https://codebattle.hexlet.io/#lobby
     Пользователь авторизован
+  test-data: |
+    Тестовые данные
   steps:
     - Нажать на свой ник в правом верхнем углу
     - Нажать "My profile"
